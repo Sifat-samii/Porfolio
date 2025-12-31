@@ -25,6 +25,11 @@ const config: Config = {
           light: '#d4947a',
           dark: '#9a5a42',
         },
+        stone: {
+          DEFAULT: '#a8a8a8',
+          light: '#c0c0c0',
+          dark: '#808080',
+        },
       },
       fontFamily: {
         display: ['var(--font-display)', 'serif'],

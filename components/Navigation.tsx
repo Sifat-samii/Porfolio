@@ -56,6 +56,16 @@ export default function Navigation() {
           >
             Music
           </Link>
+          <Link
+            href="/leadership"
+            className={`transition-colors duration-300 ${
+              pathname === '/leadership'
+                ? 'text-white'
+                : 'text-white/60 hover:text-white'
+            }`}
+          >
+            Leadership
+          </Link>
         </div>
       </div>
     </nav>
