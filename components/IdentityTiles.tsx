@@ -67,8 +67,8 @@ function TileCard({ tile, index }: { tile: Tile; index: number }) {
       onHoverEnd={() => setIsHovered(false)}
       className="relative group cursor-pointer"
       onClick={() => {
-        // Smooth scroll to anchor (placeholder for now)
-        document.querySelector(tile.anchor)?.scrollIntoView({ behavior: 'smooth' })
+        // Navigate to About page - tiles will be linked to sections there
+        window.location.href = '/about'
       }}
     >
       <motion.div

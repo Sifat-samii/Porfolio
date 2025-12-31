@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
+import Navigation from './Navigation'
 
 export default function Hero() {
   const [scrollY, setScrollY] = useState(0)
@@ -69,12 +70,7 @@ export default function Hero() {
       />
 
       {/* Minimal navigation */}
-      <nav className="absolute top-0 left-0 right-0 z-10 p-8">
-        <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <div className="text-sm text-white/60">Portfolio</div>
-          <div className="text-sm text-white/60">Menu</div>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Centered content */}
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
