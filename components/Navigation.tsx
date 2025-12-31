@@ -36,6 +36,26 @@ export default function Navigation() {
           >
             About
           </Link>
+          <Link
+            href="/case-studies"
+            className={`transition-colors duration-300 ${
+              pathname === '/case-studies'
+                ? 'text-white'
+                : 'text-white/60 hover:text-white'
+            }`}
+          >
+            Case Studies
+          </Link>
+          <Link
+            href="/music"
+            className={`transition-colors duration-300 ${
+              pathname === '/music'
+                ? 'text-white'
+                : 'text-white/60 hover:text-white'
+            }`}
+          >
+            Music
+          </Link>
         </div>
       </div>
     </nav>

@@ -20,6 +20,11 @@ const config: Config = {
           light: '#7fc9c9',
           dark: '#4a9a9a',
         },
+        copper: {
+          DEFAULT: '#b8735a',
+          light: '#d4947a',
+          dark: '#9a5a42',
+        },
       },
       fontFamily: {
         display: ['var(--font-display)', 'serif'],
