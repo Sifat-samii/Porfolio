@@ -15,6 +15,11 @@ const config: Config = {
           light: '#e8c49a',
           dark: '#b8935a',
         },
+        teal: {
+          DEFAULT: '#5fb3b3',
+          light: '#7fc9c9',
+          dark: '#4a9a9a',
+        },
       },
       fontFamily: {
         display: ['var(--font-display)', 'serif'],

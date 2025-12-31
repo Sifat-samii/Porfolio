@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 export default function AboutClosing() {
   return (
@@ -23,11 +24,12 @@ export default function AboutClosing() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <button
+          <Link
+            href="/case-studies"
             className="px-8 py-3 border border-white/20 bg-white/5 text-white font-light hover:bg-white/10 transition-colors duration-300"
           >
             View Case Studies
-          </button>
+          </Link>
           <button
             className="px-8 py-3 border border-white/20 bg-white/5 text-white/40 font-light cursor-not-allowed"
             disabled
